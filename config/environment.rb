@@ -1,6 +1,9 @@
 require "bundler/setup"
 require 'yaml'
 require 'active_record'
+# require 'sinatra/activerecord/rake'
+require "require_all"
+require_all"app/models"
 
 Bundler.require
 
